@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Navbar from './Navbar';
 
 export const Button = () => {
     const[color,setColor] = useState("Red")
@@ -6,7 +7,7 @@ export const Button = () => {
         <div>
             <h1 style={{color:color}}>Change The Color</h1>
             <button onClick={()=>setColor("Pink")}>
-                Submit
+                <Navbar/>
             </button>
             <h1 style={{color:color}}>Change The Color</h1>
             <button onClick={()=>setColor("Pink")}>
