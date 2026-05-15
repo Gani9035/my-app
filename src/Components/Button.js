@@ -6,7 +6,7 @@ export const Button = () => {
         <div>
             <h1 style={{color:color}}>Change The Color</h1>
             <button onClick={()=>setColor("Pink")}>
-                Click Here To Change The Text Color
+                <h1>Click Here</h1>
             </button>
         </div>
     )
