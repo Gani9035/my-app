@@ -11,7 +11,7 @@ export const Button = () => {
             </button>
             <h1 style={{color:color}}>Change The Color</h1>
             <button onClick={()=>setColor("Pink")}>
-                Submit
+                <Navbar/>
             </button>
             <h1 style={{color:color}}>Change The Color</h1>
             <button onClick={()=>setColor("Pink")}>
